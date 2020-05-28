@@ -6,7 +6,7 @@ eureka:
       prefer-ip-address: true
       instance-id: ${spring.cloud.client.ip-address}:${server.port}:${spring.application.name}
 server:
-  port: 8070
+  port: 8080
 spring:
   application:
     name: configclient
